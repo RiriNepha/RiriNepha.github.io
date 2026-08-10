@@ -15,3 +15,66 @@ body {
     border-radius: 10px;
     width: 200px;
 }
+/* ==================== HERO ==================== */
+
+.hero {
+    background-color: #0f172a;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero-intro {
+    color: #60a5fa;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #cbd5e1;
+    margin: 20px 0;
+}
+
+.hero-description {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+    color: #cbd5e1;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.primary-btn {
+    background-color: #2563eb;
+    color: white;
+}
+
+.secondary-btn {
+    border: 2px solid #60a5fa;
+    color: white;
+}
