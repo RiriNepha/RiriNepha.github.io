@@ -3,3 +3,15 @@ body {
     color: #1f2937;
     font-family: Arial, sans-serif;
 }
+.skills-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
