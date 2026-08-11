@@ -89,3 +89,6 @@ nav {
 nav a {
     text-decoration: none;
 }
+nav a:hover {
+    color: #60a5fa;
+}
