@@ -208,8 +208,6 @@ section h2 {
     border-left-color: #60a5fa;
     box-shadow: 0 8px 20px rgba(96, 165, 250, 0.15);
 }
-
-
 /* ==================== SKILLS ==================== */
 
 .skills-container {
@@ -219,12 +217,38 @@ section h2 {
 }
 
 .skill-card {
-    background-color: #ffffff;
-    padding: 30px;
+    background-color: #f8fafc;
+    padding: 28px;
     border-radius: 15px;
+    border: 1px solid #e2e8f0;
     border-left: 5px solid #f472b6;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #60a5fa;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    border-left-color: #60a5fa;
+    box-shadow: 0 10px 25px rgba(96, 165, 250, 0.20);
+}
+
+.skill-card:hover::before {
+    transform: scaleX(1);
 }
 
 .skill-card h3 {
@@ -239,13 +263,6 @@ section h2 {
     line-height: 1.6;
     margin: 0;
 }
-
-.skill-card:hover {
-    transform: translateY(-8px);
-    border-left-color: #60a5fa;
-    box-shadow: 0 10px 25px rgba(96, 165, 250, 0.20);
-}
-
 
 /* ==================== EXPERIENCE ==================== */
 
