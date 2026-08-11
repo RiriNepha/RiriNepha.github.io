@@ -73,6 +73,9 @@ body {
     background-color: #2563eb;
     color: white;
 }
+.primary-btn:hover {
+    background-color: #1d4ed8;
+}
 nav a {
     color: white;
 }
