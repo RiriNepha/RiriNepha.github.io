@@ -21,7 +21,6 @@ body {
     border-radius: 15px;
     border-left: 5px solid #f472b6;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
-
     transition: transform 0.3s ease,
                 box-shadow 0.3s ease,
                 border-color 0.3s ease;
@@ -45,6 +44,7 @@ body {
     border-left-color: #60a5fa;
     box-shadow: 0 10px 25px rgba(96, 165, 250, 0.20);
 }
+
 
 /* ==================== HERO ==================== */
 
@@ -114,7 +114,6 @@ body {
     position: absolute;
     top: 30px;
     right: 40px;
-
     display: flex;
     gap: 15px;
 }
@@ -210,4 +209,38 @@ section h2 {
 .experience-company {
     color: #64748b;
     font-weight: bold;
+}
+
+
+/* ==================== MOBILE ==================== */
+
+@media (max-width: 768px) {
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        position: static;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
 }
