@@ -119,3 +119,12 @@ nav a {
 nav a:hover {
     color: #60a5fa;
 }
+/* ==================== SECTIONS ==================== */
+
+section {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 12px;
+}
