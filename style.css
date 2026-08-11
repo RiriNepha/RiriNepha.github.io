@@ -134,3 +134,26 @@ section h2 {
     font-size: 32px;
     margin-bottom: 25px;
 }
+/* ==================== EXPERIENCE ==================== */
+
+.experience-card {
+    padding: 25px;
+    margin-bottom: 25px;
+    border-left: 4px solid #ff69b4;
+    background-color: #f8fafc;
+    border-radius: 8px;
+}
+
+.experience-card h3 {
+    color: #0f172a;
+    margin-bottom: 8px;
+}
+
+.experience-card p {
+    line-height: 1.6;
+}
+
+.experience-company {
+    color: #64748b;
+    font-weight: bold;
+}
