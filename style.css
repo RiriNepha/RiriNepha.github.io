@@ -372,7 +372,47 @@ footer {
     padding: 25px;
     margin-top: 60px;
 }
+/* ==================== EXPERIENCE TIMELINE STYLE ==================== */
 
+.experience-card {
+    position: relative;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    background-color: #f8fafc;
+    border-left: 5px solid #f472b6;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateX(8px);
+    border-left-color: #60a5fa;
+    box-shadow: 0 8px 22px rgba(96, 165, 250, 0.18);
+}
+
+.experience-card h3 {
+    color: #0f172a;
+    font-size: 21px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.experience-company {
+    display: inline-block;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.experience-card p {
+    color: #475569;
+    line-height: 1.7;
+}
 
 /* ==================== MOBILE ==================== */
 
