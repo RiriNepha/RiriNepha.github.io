@@ -73,6 +73,9 @@ body {
     background-color: #2563eb;
     color: white;
 }
+nav a {
+    color: white;
+}
 
 .secondary-btn {
     border: 2px solid #60a5fa;
