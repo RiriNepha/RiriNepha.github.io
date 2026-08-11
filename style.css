@@ -70,11 +70,12 @@ body {
 }
 
 .primary-btn {
-    background-color: #2563eb;
+    background-color: #f472b6;
     color: white;
 }
+
 .primary-btn:hover {
-   background-color: #db2777;
+    background-color: #ec4899;
 }
 nav a {
     color: white;
