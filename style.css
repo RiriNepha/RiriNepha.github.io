@@ -1,8 +1,14 @@
+/* ==================== GENERAL PAGE ==================== */
+
 body {
     background-color: #f5f7fa;
     color: #1f2937;
     font-family: Arial, sans-serif;
 }
+
+
+/* ==================== SKILLS ==================== */
+
 .skills-container {
     display: flex;
     gap: 20px;
@@ -15,6 +21,8 @@ body {
     border-radius: 10px;
     width: 200px;
 }
+
+
 /* ==================== HERO ==================== */
 
 .hero {
@@ -54,6 +62,9 @@ body {
     color: #cbd5e1;
 }
 
+
+/* ==================== HERO BUTTONS ==================== */
+
 .hero-buttons {
     display: flex;
     justify-content: center;
@@ -61,49 +72,6 @@ body {
     flex-wrap: wrap;
 }
 
-.btn {
-    display: inline-block;
-    padding: 12px 24px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.primary-btn {
-    background-color: #f472b6;
-    color: white;
-}
-
-.primary-btn:hover {
-    background-color: #ec4899;
-}
-nav a {
-    color: white;
-}
-
-.secondary-btn {
-    border: 2px solid #60a5fa;
-    color: white;
-}
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-nav a {
-    text-decoration: none;
-}
-nav a{
-    transition: color 0.3s ease;
-}
-nav a:hover {
-    color: #60a5fa;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
 .btn {
     display: inline-block;
     padding: 12px 24px;
@@ -122,7 +90,31 @@ nav a {
     background-color: #ec4899;
 }
 
+.secondary-btn {
+    border: 2px solid #60a5fa;
+    color: white;
+}
+
 .secondary-btn:hover {
     background-color: #60a5fa;
     color: #0f172a;
+}
+
+
+/* ==================== NAVIGATION ==================== */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #60a5fa;
 }
