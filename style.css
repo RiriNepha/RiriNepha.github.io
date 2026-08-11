@@ -16,11 +16,11 @@ body {
 }
 
 .skill-card {
-    background-color: #f8fafc;
-    padding: 25px;
-    border-radius: 12px;
-    border-top: 4px solid #f472b6;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 5px solid #f472b6;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
 
     transition: transform 0.3s ease,
                 box-shadow 0.3s ease,
@@ -29,26 +29,22 @@ body {
 
 .skill-card h3 {
     color: #0f172a;
+    font-size: 22px;
     margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 12px;
 }
 
 .skill-card p {
     color: #64748b;
     line-height: 1.6;
-    margin-bottom: 0;
+    margin: 0;
 }
-
-
-/* ==================== SKILL HOVER ==================== */
 
 .skill-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 8px 20px rgba(244, 114, 182, 0.18);
-    border-top-color: #60a5fa;
+    transform: translateY(-8px);
+    border-left-color: #60a5fa;
+    box-shadow: 0 10px 25px rgba(96, 165, 250, 0.20);
 }
-
 
 /* ==================== HERO ==================== */
 
