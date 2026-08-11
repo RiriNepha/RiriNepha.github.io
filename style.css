@@ -100,3 +100,11 @@ nav a {
     text-decoration: none;
     transition: color 0.3s ease;
 }
+.primary-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.secondary-btn:hover {
+    background-color: #60a5fa;
+    color: #0f172a;
+}
