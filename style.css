@@ -28,7 +28,7 @@ body {
 .hero {
     background-color: #0f172a;
     color: white;
-    padding: 90px 20px;
+    padding: 70px 20px;
 }
 
 .hero-content {
@@ -37,7 +37,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 50px;
 }
 
 .hero-photo img {
