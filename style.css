@@ -139,9 +139,10 @@ section h2 {
 .experience-card {
     padding: 25px;
     margin-bottom: 25px;
-    border-left: 4px solid #ff69b4;
+    border-left: 8px solid hotpink;
     background-color: #f8fafc;
     border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
 .experience-card h3 {
