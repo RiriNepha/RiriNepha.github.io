@@ -471,4 +471,45 @@ footer {
         margin: 30px 15px;
         padding: 25px;
     }
+    /* ==================== EDUCATION - FINAL STYLE ==================== */
+
+#education .education-card {
+    background-color: #f8fafc;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    border-left: 5px solid #f472b6;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease;
+}
+
+#education .education-card:hover {
+    transform: translateX(8px);
+    border-left-color: #60a5fa;
+    box-shadow: 0 8px 22px rgba(96, 165, 250, 0.18);
+}
+
+#education .education-card h3 {
+    color: #0f172a;
+    font-size: 21px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#education .education-institution {
+    display: inline-block;
+    background-color: #e0f2fe;
+    color: #0369a1;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#education .education-details {
+    color: #f472b6 !important;
+    font-weight: bold;
+    margin-top: 5px;
+}
 }
